@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MVT Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MVT</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="contact-methods">
+                <div class="contact-method clickable" onclick="window.open('https://mvt-shop01.x.yupoo.com', '_blank')">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                    </svg>
+                    <h3>Yupoo</h3>
+                    <p>mvt-shop01.x.yupoo.com</p>
+                </div>
+
+                <div class="contact-method clickable" onclick="window.location.href='whatsapp://send?phone=8615388056576'">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+                    </svg>
+                    <h3>WhatsApp</h3>
+                    <p>+86 153 8805 6576</p>
+                </div>
+
+                <div class="contact-method clickable" onclick="openWeChat('MVT_01127')">
+                    <svg class="icon" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd">
+                        <path d="M21.502 19.525c1.524-1.105 2.498-2.738 2.498-4.554 0-3.326-3.237-6.023-7.229-6.023s-7.229 2.697-7.229 6.023c0 3.327 3.237 6.024 7.229 6.024.825 0 1.621-.117 2.36-.33l.212-.032c.139 0 .265.043.384.111l1.583.914.139.045c.133 0 .241-.108.241-.241l-.039-.176-.326-1.215-.025-.154c0-.162.08-.305.202-.392zm-12.827-17.228c-4.791 0-8.675 3.236-8.675 7.229 0 2.178 1.168 4.139 2.997 5.464.147.104.243.276.243.471l-.03.184-.391 1.458-.047.211c0 .16.13.29.289.29l.168-.054 1.899-1.097c.142-.082.293-.133.46-.133l.255.038c.886.255 1.842.397 2.832.397l.476-.012c-.188-.564-.291-1.158-.291-1.771 0-3.641 3.542-6.593 7.911-6.593l.471.012c-.653-3.453-4.24-6.094-8.567-6.094z"/>
+                    </svg>
+                    <h3>WeChat</h3>
+                    <p>MVT_01127</p>
+                </div>
+
+                <div class="contact-method clickable" onclick="openDiscord('mvtshop')">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z"/>
+                    </svg>
+                    <h3>Discord</h3>
+                    <p>mvtshop</p>
+                </div>
+
+                <div class="contact-method clickable" onclick="openTaobao('https://m.tb.cn/h.gNmj5d8FJDd1hrw')">
+                    <svg class="icon" viewBox="0 0 24 24">
+                        <path d="M19.492 7.561l-2.687-5.037A2.252 2.252 0 0014.963 1H9.037a2.252 2.252 0 00-1.842 1.524L4.508 7.561A3.75 3.75 0 002 10.875v7.875A2.25 2.25 0 004.25 21h15.5A2.25 2.25 0 0022 18.75v-7.875a3.75 3.75 0 00-2.508-3.314zM9.037 3h5.926l2.143 4H6.894l2.143-4zm10.713 15.75H4.25v-7.875c0-.621.504-1.125 1.125-1.125h13.25c.621 0 1.125.504 1.125 1.125v7.875z"/>
+                    </svg>
+                    <h3>Taobao</h3>
+                    <p>MVT Store</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function openWeChat(id) {
+            window.location.href = `weixin://`;
+            
+            setTimeout(() => {
+                navigator.clipboard.writeText(id);
+                alert('WeChat ID copied to clipboard: ' + id);
+            }, 500);
+        }
+
+        function openDiscord(username) {
+            window.location.href = `discord://`;
+            
+            setTimeout(() => {
+                navigator.clipboard.writeText(username);
+                alert('Discord username copied to clipboard: ' + username);
+            }, 500);
+        }
+
+        function openTaobao(url) {
+            window.location.href = `taobao://${url}`;
+            
+            setTimeout(() => {
+                window.open(url, '_blank');
+            }, 500);
+        }
+    </script>
+</body>
+</html> 
